@@ -1,6 +1,6 @@
-XBE_TITLE = nxdk\ sample\ -\ mesh
+XBE_TITLE = xbox-triangle
 GEN_XISO = $(XBE_TITLE).iso
-SRCS = $(CURDIR)/math3d.c $(CURDIR)/main.c
+SRCS = $(CURDIR)/main.c
 SHADER_OBJS = ps.inl vs.inl
 NXDK_DIR ?= $(CURDIR)/../..
 
